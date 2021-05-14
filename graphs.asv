@@ -1,0 +1,23 @@
+load('spatial_pyramid_knn_results.mat')
+load('spatial_pyramid_svm_results.mat')
+load('bag_of_sifts_knn_results.mat')
+load('bag_of_sifts_svm_results.mat')
+
+a = bag_of_sifts_knn_results;
+b = spatial_pyramid_knn_results;
+
+c = bag_of_sifts_svm_results;
+d = spatial_pyramid_svm_results;
+
+
+mean(a.accuracy, 'all')
+
+
+avg
+for i=1:length(a)
+    
+    acc1 = a(i).accuracy;
+
+
+
+end
